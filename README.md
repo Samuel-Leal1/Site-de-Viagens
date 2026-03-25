@@ -31,7 +31,7 @@ Projeto simples com o objetivo de praticar a criação de páginas web, incluind
   ├── index.html
   ├── destinos.html
   ├── style.css
-  └── imagens/
+ 
 ```
 
 ---
