@@ -1,0 +1,135 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+nav {
+  background: #1a6fba;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  border-bottom: 2px solid white;
+  padding-bottom: 4px;
+}
+
+.banner {
+  position: relative;
+  height: 400px;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.texto-banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.botao {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.laranja { background: #ff6600; }
+.azul { background: #1a6fba; }
+
+h2, h3, h4 {
+  color: #1a3a5c;
+}
+
+.rodape p {
+  color: #1a3a5c;
+}
+
+.titulo {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.lista-destinos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.cartao {
+  width: 250px;
+  text-align: center;
+}
+
+.cartao img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.centro {
+  text-align: center;
+  margin: 20px;
+}
+
+.sobre {
+  background: #eee;
+  padding: 30px;
+  text-align: center;
+}
+
+.sobre p {
+  max-width: 600px;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+.rodape {
+  background: #d6eaf8;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.rodape input,
+.rodape textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 200px;
+  padding: 8px;
+}
+
+.rodape img {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.copyright {
+  background: #1a6fba;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
